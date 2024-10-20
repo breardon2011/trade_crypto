@@ -1,0 +1,16 @@
+# Files
+*.env
+*.pyc
+*.venv
+*.cursorignore
+.sqlite
+.sqlite3
+
+# Folders
+/data
+/logs
+/.idea
+/.vscode
+.venv
+.env
+

@@ -1,0 +1,32 @@
+## Example of Functions.py options data
+
+{
+    "date": "2019-02-09",
+    "act_symbol": "AAPL",
+    "expiration": "2019-02-22",
+    "strike": "145.00",
+    "call_put": "Call",
+    "bid": "25.30",
+    "ask": "26.05",
+    "vol": "0.4236",
+    "delta": "0.9773",
+    "gamma": "0.0038",
+    "theta": "-0.0371",
+    "vega": "0.0180",
+    "rho": "0.0540"
+},
+{
+    "date": "2019-02-09",
+    "act_symbol": "AAPL",
+    "expiration": "2019-02-22",
+    "strike": "145.00",
+    "call_put": "Put",
+    "bid": "0.06",
+    "ask": "0.08",
+    "vol": "0.3886",
+    "delta": "-0.0149",
+    "gamma": "0.0029",
+    "theta": "-0.0172",
+    "vega": "0.0125",
+    "rho": "-0.0010"
+},

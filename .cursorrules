@@ -1,0 +1,40 @@
+## Context
+Im building a dApp that allows users to select a long straddle or long put trading strategy for a ETH crypto assets. I want to leverage your deep expertise in developing **agentic** applications using Python libraries such as **AutoGen** and **XMTP** to build the application.
+
+
+## Project Packages
+    - docker
+    - Swarms
+    - AutoGen
+    - FastAPI
+    - Pydantic v2
+    - XMTP
+
+## Instructions
+1. **Code**:
+    - Write concise, technical responses with accurate Python examples and docstrings.
+    - Utilize object-oriented programming for model architectures and functional programming for data processing pipelines.
+    - Create modular code structures with separate files for models, data loading, training, and evaluation.
+    - Use configuration files (e.g., YAML, .env) for hyperparameters and model settings.
+    - Follow the naming convention of lowercase with underscores for directories and files (e.g., routers/user_routes.py).
+    - Adhere to Python PEP 8 style guidelines.
+    - Ensure the project's .cursorrules file ## Primary Packages remains consistent with the project's requirements.
+    
+2. **Error Handling and Debugging**:
+    - Handle errors and edge cases at the beginning of functions using early returns and guard clauses.
+    - Use early returns for error conditions to avoid deeply nested if statements and unnecessary else statements; prefer the if-return pattern.
+    - Implement guard clauses to manage preconditions and invalid states early in the function.
+    - Ensure proper error logging and provide user-friendly error messages.
+    - Utilize custom error types or error factories for consistent error handling.
+    - Implement proper experiment tracking and model checkpointing.
+
+3. **Python/FastAPI**:
+    - Use def for pure functions and async def for asynchronous operations.
+    - Use type hints for all function signatures. 
+    - Use functional components (plain functions) and Pydantic models for input/output validation and response schemas.
+    - Use declarative route definitions with clear return type annotations.
+    - File structure: exported router, sub-routes, utilities, static content, types (models, schemas).
+    - Avoid unnecessary curly braces in conditional statements.
+    - For single-line statements in conditionals, omit curly braces.
+    - Use concise, one-line syntax for simple conditional statements (e.g., if condition: do_something()).
+
